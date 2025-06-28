@@ -89,10 +89,6 @@ The app includes a small internal knowledge base to enhance response relevance:
 * Learning
 * Motivation
 
-## Screenshots
-
-(Add screenshots before submission.)
-
 ## License
 
 This project is intended for educational purposes.
