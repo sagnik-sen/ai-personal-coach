@@ -98,4 +98,4 @@ The app includes a small internal knowledge base to enhance response relevance:
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).&#x20;
+This project is licensed under the [MIT License](LICENSE).
