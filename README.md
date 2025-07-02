@@ -1,16 +1,23 @@
 # AI Personal Coach
 
-This project is a web-based personal coaching tool built with Streamlit and IBM Watsonx foundation models. It generates structured, motivational, and actionable content based on user goals. The application demonstrates the use of generative AI in a practical context while maintaining simplicity for ease of understanding and reproducibility.
+This project is a web-based personal coaching tool built with Streamlit and IBM Watsonx foundation models. It generates structured, motivational, and actionable content based on user goals. The application demonstrates the use of Generative AI in a practical context while maintaining simplicity for ease of understanding and reproducibility.
+
+> 📝 This project was developed as part of a Generative AI capstone assignment to demonstrate proficiency with foundation models and retrieval-augmented generation.
 
 ## Features
 
 **Dynamic Model Selection**
 
-* Choose among Granite Instruct, FLAN T5, Llama 2 Chat, or Mistral Large.
+* Choose among several pre-trained foundation models:
+
+  * Granite Instruct
+  * FLAN T5
+  * Meta Llama 2 Chat
+  * Mistral Large
 
 **Retrieval-Augmented Generation**
 
-* Enriches user input with a small knowledge base.
+* Enriches user input with a small internal knowledge base.
 
 **Personalized Outputs**
 
@@ -72,7 +79,7 @@ WATSONX_PROJECT_ID=your_project_id_here
 WATSONX_URL=your_watsonx_url_here
 ```
 
-*(Do not commit `.env` to version control.)*
+*(Do not commit **`.env`** to version control.)*
 
 5. Start the app
 
@@ -91,9 +98,4 @@ The app includes a small internal knowledge base to enhance response relevance:
 
 ## License
 
-This project is intended for educational purposes.
-
-## Acknowledgments
-
-* IBM Watsonx.ai
-* Streamlit
+This project is licensed under the [MIT License](LICENSE).&#x20;
